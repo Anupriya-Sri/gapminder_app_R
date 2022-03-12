@@ -12,7 +12,7 @@ gapminder <- readr::read_csv("data/processed/gapminder_processed.csv")
 app$layout(
   dbcContainer(
     list(
-      htmlH1("Gapminder Dashboard"),
+      htmlH1("Gapminder: top 10 countries"),
       dccDropdown(
         id = "target",
         options = list(
